@@ -1,7 +1,12 @@
-# PCA
+# Dimensionality Reduction
+When dealing with datasets with many attributes, high-dimensional space, it's desirable to reduce its complexity by transforming them into a low-dimensional space. It makes easier the task of the model that the date will be used to fed. Besides, it may considerably save computational resources. 
 
 ## Project
 The objective with this project is to use PCA for dimensionality reduction of a dataset with many attributes. It's a simple application of the PCA library of scikit-learn and will work as a reference for future projects.
+<br>
+<br>
+To visualise the data the t-SNE algorithm was also applied. 
+
 
 ## Dataset
 The chosen dataset is the UCI [Codon usage Data Set](https://archive.ics.uci.edu/ml/datasets/Codon+usage).
