@@ -1,8 +1,8 @@
 # Dimensionality Reduction
-When dealing with datasets with many attributes, high-dimensional space, it's desirable to reduce its complexity by transforming them into a low-dimensional space. It makes easier the task of the model that the date will be used to fed. Besides, it may considerably save computational resources. 
+When dealing with datasets with many attributes, high-dimensional space, it's desirable to reduce its complexity by transforming them into a low-dimensional space. It makes the task of training the model faster as it'll have to deal with less features. Besides, it may considerably save computational resources. 
 
 ## Project
-The objective with this project is to use PCA for dimensionality reduction of a dataset with many attributes. It's a simple application of the PCA library of scikit-learn and will work as a reference for future projects.
+The objective with this project is to use PCA for dimensionality reduction of a dataset with many attributes. It's a simple application of the PCA library of scikit-learn and will work as a reference for future projects. One disadvantage of PCA is that the new data may not be easily interpretable anymore because of the transformations it suffer.
 <br>
 <br>
 To visualise the data the t-SNE algorithm was also applied. 
